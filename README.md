@@ -28,13 +28,13 @@ Body: Attach a CSV file using the "file" parameter.
 Response: The API processes the CSV file and returns a success response or an error message.
 
 Send Data to Queue
-Endpoint: POST https://localhost:7298/api/v1.0data/send-data-to-queue
+Endpoint: POST https://localhost:7298/api/v1.0/data/send-data-to-queue
 Method: POST
 Content-Type: application/json
 Response: The API sends the data to the RabbitMQ queue and returns a success response or an error message.
 
 Receive Data from Queue
-Endpoint: POST https://localhost:7298/api/v1.0data/receive-data-from-queue
+Endpoint: POST https://localhost:7298/api/v1.0/data/receive-data-from-queue
 Method: POST
 Content-Type: application/json
 Response: The API retrieves data from the RabbitMQ queue and returns it in the response.
