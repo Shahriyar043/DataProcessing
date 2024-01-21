@@ -73,7 +73,7 @@ public class DataProcessorServiceTests
         var result = await dataProcessorService.GetDataFromMemoryAsync();
 
         // Assert
-        Assert.Null(result);
+        Assert.Empty(result);
     }
 }
 
